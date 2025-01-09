@@ -1,0 +1,47 @@
+name: KIMAS
+regions:
+  - europe-west 
+services:
+  - name: KIMAS-MD
+    type: web
+    instance_type: nano
+    git:
+      url: https://github.com/KIMAS-MD/KIMAS-BOT
+      branch: main
+      build_command: yarn install
+      run_command: node index.js
+    env:
+      - key: TELEGRAM_USERNAME
+        value: null
+      - key: YOUTUBE_CHANNEL
+        value: null
+      - key: GITHUB_USERNAME
+        value: null
+      - key: INSTAGRAM_HANDLE
+        value: null
+      - key: THREADS_HANDLE
+        value: null
+      - key: BOTNAME
+        value: null
+      - key: OWNERNUMBER
+        value: null
+      - key: WEBSITE
+        value: null
+      - key: WATERMARK
+        value: null
+      - key: AUTHOR
+        value: null
+      - key: PREFIX
+        value: null
+      - key: PREMIUM
+        value: null
+      - key: LOCATION
+        value: null
+      - key: DROPBOX_TOKEN
+        value: null
+      - key: DATABASE_URL
+        value: null
+      - key: SESSION_ID
+        value: null
+      - key: PORT
+        value: null
