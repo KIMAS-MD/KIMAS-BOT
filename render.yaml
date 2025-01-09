@@ -30,8 +30,7 @@ services:
       - key: PREFIX
         value: null
       - key: PREMIUM
-        value: null
-        sync: false
+        value: null   # Removed sync: false
       - key: LOCATION
         value: null
       - key: DROPBOX_TOKEN
