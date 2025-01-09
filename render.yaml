@@ -9,55 +9,39 @@ services:
     envVars:
       - key: TELEGRAM_USERNAME
         value: null
-        sync: true
       - key: YOUTUBE_CHANNEL
         value: null
-        sync: true
       - key: GITHUB_USERNAME
         value: null
-        sync: true
       - key: INSTAGRAM_HANDLE
         value: null
-        sync: true
       - key: THREADS_HANDLE
         value: null
-        sync: true
       - key: BOTNAME
         value: null
-        sync: true
       - key: OWNERNUMBER
         value: null
-        sync: true
       - key: WEBSITE
         value: null
-        sync: true
       - key: WATERMARK
         value: null
-        sync: true
       - key: AUTHOR
         value: null
-        sync: true
       - key: PREFIX
         value: null
-        sync: true
       - key: PREMIUM
         value: null
         sync: false
       - key: LOCATION
         value: null
-        sync: true
       - key: DROPBOX_TOKEN
         value: null
-        sync: true
       - key: DATABASE_URL
         value: null
-        sync: true
       - key: SESSION_ID
         value: null
-        sync: true
       - key: PORT
         value: null
-        sync: true
     region: oregon
     buildCommand: yarn install
     startCommand: node index.js
